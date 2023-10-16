@@ -1,0 +1,29 @@
+/*** Style sheet for Black Mirror Page/WebSite ***/
+/*** Author: Alejandro Barnestein Martos *********/
+/*** Version: 1.0 ********************************/
+/*** Class project 2023-24 ***********************/
+
+/**Cuando quiero usar una tipografía y asegurarme de que se verá correctamente, suministro también  con la página el archivo de la fuente que será .ttf o .otf*/
+/* 1- Ahora enlazo el archivo descargado */
+/* 2- Utilizo el nombre de la font-family donde quiera usarlo*/
+
+@font-face { /*Esto no es un selector, es un enlace*/
+    font-family: blackmirror;
+    src: url(../font/FontsFree-Net-Proxima-Nova-Bold.otf);
+}
+
+@font-face {
+    font-family:textonormal ;
+    src: url(../font/OpenSans-Light.ttf);
+}
+
+body {background-color: #202020;
+margin: 0;
+padding:0;
+font-family: textonormal;
+border: 10px,white,;}
+
+#wrapper {    background-color: #808080 ;
+
+            width: 80%;
+            margin: auto;}
